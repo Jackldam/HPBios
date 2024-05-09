@@ -3,6 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Ignore secret files
+*.[Ss][Ee][Cc][Rr][Ee][Tt]
+*.[Cc][Rr][Ee][Dd]
+!**/[Ss][Ee][Cc][Rr][Ee][Tt][Ss]/
+
 # User-specific files
 *.rsuser
 *.suo
